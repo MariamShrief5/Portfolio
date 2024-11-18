@@ -1,0 +1,243 @@
+/* *========> Font <======== */
+
+@media screen and (max-width: 400px) {
+:root {
+    font-size: 12px;
+}
+} 
+  
+/* *========> Nav <======== */
+
+@media screen and (max-width: 1200px) {
+.menu-icon i{
+    display: block;
+}
+.home nav ul{
+    display: none;
+}
+}
+
+@media screen and (max-width: 300px){
+nav .icons{
+    display: none;
+}
+}
+
+/* *========> Header <======== */
+
+@media screen and (max-width: 768px){
+header p{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.animated-text{
+    font-size: 1.25rem;
+}
+}
+
+@media screen and (max-width: 400px){
+.home{
+height: 80vh;
+}
+}
+
+/* *========> About <======== */
+
+@media screen and (max-width: 1200px){
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    width: 80%;
+}
+
+.about-data{
+    width: 80%;
+}
+}
+
+@media screen and (max-width: 550px){
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    width: 100%;
+}
+
+.about-data{
+    width: 100%;
+}
+
+.title h2{
+    opacity: 0.4;
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-size: 3.125rem;
+}
+
+.title p{
+    margin-top: -5.625rem;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+ }
+
+ /* *========> Count <======== */
+
+ @media screen and (min-width: 992px){
+    .count .card{
+        width: calc(100% / 4);
+    }
+
+    .count .dash-0{
+        border-bottom: none;
+    }
+ }
+
+ /* *========> What I Do <======== */
+
+ @media screen and (min-width: 992px){
+    .do .main{
+        flex-direction: row;
+    }
+ }
+
+ /* *========> Resume <======== */
+
+ @media screen and (min-width: 992px){
+    .resume .hold{
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .resume .hold .education{
+        width: 45%;
+    }
+
+    .resume .hold .experience{
+        width: 45%;
+    }
+
+    .resume .hold .skills{
+        display: flex;
+        width: 90%;
+        margin-left: -5rem;
+    }
+
+    .resume .hold .skills .main .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+    }
+
+    .resume .hold .skills .justify{
+        display: flex;
+        flex-direction: row;
+        gap: 3.125rem;
+    }
+ }
+/* *========> Portfolio <======== */
+
+ @media screen and (max-width: 992px ){
+.portfolio-container{
+    grid-template-areas: 
+    "table phone "
+    "table phone "
+    "table phone"
+    "bluee phone "
+    "bluee phone"
+    "scetch phone"
+    "scetch paper"
+    "scetch paper"
+    "scetch charge"
+    "scetch charge"
+    "stick charge"
+    "stick ."
+    ;
+}
+} 
+
+@media screen and (max-width: 640px ){
+    .portfolio-container{
+        grid-template-areas: 
+        "table"
+        "phone "
+        "bluee"
+        "scetch"
+        "paper"
+        "charge"
+        "stick "
+        ;
+    }
+} 
+    
+
+/* *========> Client Feedback <======== */
+
+@media screen and (min-width: 992px ){
+    .client .main{
+        display: flex;
+        flex-direction: row;
+        width: calc((90% - 1.25rem)) ;
+        gap: 1.25rem;
+    }
+
+    .client .main > div{
+        width: 100%;
+    }    
+} 
+
+/* *========> Contact <======== */
+
+@media screen and (min-width: 992px ){
+    .contact .main{
+        display: flex;
+        flex-direction: row;
+        width: calc(90% - 2.5rem);
+    }
+
+    .contact .main > div.address{
+        width: 40% ;
+        line-height: 1.6rem;
+        order: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact .main > div.form{
+        width: 100%;
+        order: 2;
+    }
+
+    .contact .main .form .row-column{
+        flex-direction: row;
+    }
+
+    .contact .main > div.form > h2{
+        text-align: left;
+    }
+    
+}
+
+/* *========> Contact <======== */
+
+@media screen and (min-width: 992px ){
+    footer .main{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
